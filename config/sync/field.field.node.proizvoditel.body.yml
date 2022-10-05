@@ -1,0 +1,23 @@
+uuid: 35cd0b6e-a811-4ed5-b03f-1345763a4bfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.proizvoditel
+  module:
+    - text
+id: node.proizvoditel.body
+field_name: body
+entity_type: node
+bundle: proizvoditel
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

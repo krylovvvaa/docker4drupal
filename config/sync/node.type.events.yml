@@ -1,0 +1,18 @@
+uuid: 3cecbf3d-b6eb-4bc5-a587-ecd238c58e6a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Events
+type: events
+description: 'Create events.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

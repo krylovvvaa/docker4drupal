@@ -1,0 +1,23 @@
+uuid: be0422cc-b3d3-44ef-b0b4-ef5ba8f52c14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recept
+  module:
+    - text
+id: node.recept.body
+field_name: body
+entity_type: node
+bundle: recept
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

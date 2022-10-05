@@ -1,0 +1,42 @@
+uuid: 5900220b-693a-4f2c-830f-1ac907b9cb28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.events.body
+    - field.field.node.events.field_date
+    - field.field.node.events.field_image_events
+    - image.style.events_image_style
+    - node.type.events
+  module:
+    - datetime
+    - media
+    - user
+id: node.events.default
+targetEntityType: node
+bundle: events
+mode: default
+content:
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image_events:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: events_image_style
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  links: true

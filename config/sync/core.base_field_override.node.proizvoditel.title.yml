@@ -1,0 +1,18 @@
+uuid: 92a7a496-b477-4436-8f90-0968eb59d999
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.proizvoditel
+id: node.proizvoditel.title
+field_name: title
+entity_type: node
+bundle: proizvoditel
+label: 'Наименование производителя'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

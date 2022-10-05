@@ -1,0 +1,17 @@
+uuid: ab2b4294-033f-4b5d-a28b-71e60a415853
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Производитель
+type: proizvoditel
+description: 'Информация о производителе'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

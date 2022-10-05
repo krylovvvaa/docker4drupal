@@ -1,0 +1,15 @@
+uuid: a661820f-988a-432b-8786-f0d3dd84afbf
+langcode: en
+status: true
+dependencies: {  }
+name: events_image_style
+label: 'Events image style (350х200)'
+effects:
+  372a7ced-b0b0-4757-990e-49df0d98d06a:
+    uuid: 372a7ced-b0b0-4757-990e-49df0d98d06a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 200
+      anchor: center-center

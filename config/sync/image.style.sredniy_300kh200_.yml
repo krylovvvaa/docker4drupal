@@ -1,0 +1,15 @@
+uuid: 11da42dc-64de-480d-937d-0999d2682c7a
+langcode: en
+status: true
+dependencies: {  }
+name: sredniy_300kh200_
+label: 'Extra medium (300х200)'
+effects:
+  d7426e1f-89b3-46fd-9305-ab5a59152c6f:
+    uuid: d7426e1f-89b3-46fd-9305-ab5a59152c6f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 200
+      anchor: center-center

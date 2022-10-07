@@ -1,0 +1,45 @@
+uuid: a2d8cd7e-84d0-4416-913b-98cd0683c232
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.files.field_content
+    - field.field.paragraph.files.field_file
+    - field.field.paragraph.files.field_label
+    - paragraphs.paragraphs_type.files
+  module:
+    - text
+id: paragraph.files.default
+targetEntityType: paragraph
+bundle: files
+mode: default
+content:
+  field_content:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_file:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_label:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

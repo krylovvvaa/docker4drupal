@@ -1,0 +1,21 @@
+uuid: 73b9812f-f5c9-400e-b0a8-d68088fcf09f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label
+    - paragraphs.paragraphs_type.files
+  module:
+    - text
+id: paragraph.files.field_label
+field_name: field_label
+entity_type: paragraph
+bundle: files
+label: Заголовок
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

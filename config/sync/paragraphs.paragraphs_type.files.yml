@@ -1,0 +1,10 @@
+uuid: 390264a5-bc4b-4079-8a84-226a42810107
+langcode: en
+status: true
+dependencies: {  }
+id: files
+label: Files
+icon_uuid: null
+icon_default: null
+description: 'Download files.'
+behavior_plugins: {  }

@@ -34,18 +34,7 @@ class UserBlock extends BlockBase implements ContainerFactoryPluginInterface {
     $instance->entityTypeManager = $container->get('entity_type.manager');
     return $instance;
   }
-  /**
-   * Provides a 'Node Type' condition.
-   *
-   * @Condition(
-   *   id = "node_type",
-   *   label = @Translation("User Bundle"),
-   *   context_definitions = {
-   *     "node" = @ContextDefinition("entity:user", label = @Translation("User"))
-   *   }
-   * )
-   *
-   */
+
   /**
    * {@inheritdoc}
    */

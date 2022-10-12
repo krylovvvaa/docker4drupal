@@ -1,0 +1,5 @@
+services:
+  custom_features.get_costs:
+    class: Drupal\custom_features\ProductCosts
+    arguments:
+      - '@entity_type.manager'

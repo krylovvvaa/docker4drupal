@@ -1,0 +1,22 @@
+uuid: 15cd79d5-0982-4198-933e-c1d8eeb0e00b
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_features
+  theme:
+    - mytheme
+id: kit
+theme: mytheme
+region: sidebar
+weight: 0
+provider: null
+plugin: custom_features_kit
+settings:
+  id: custom_features_kit
+  label: Kit
+  label_display: visible
+  provider: custom_features
+  foo: 'Hello world!'
+  email: krylova.dasha03@gmail.com
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: cdfa23a4-2a4e-4525-8acf-2e3db525db62
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_features
+  theme:
+    - mytheme
+id: daria
+theme: mytheme
+region: sidebar
+weight: 0
+provider: null
+plugin: custom_features_daria
+settings:
+  id: custom_features_daria
+  label: Today
+  label_display: visible
+  provider: custom_features
+  foo: 'Hello world!'
+visibility: {  }

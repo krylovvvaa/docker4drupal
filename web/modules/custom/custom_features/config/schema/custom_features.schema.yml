@@ -1,0 +1,23 @@
+block.settings.custom_features_kit:
+  type: block_settings
+  label: 'Kit block'
+  mapping:
+    foo:
+      type: string
+      label: Foo
+
+block.settings.custom_features_daria:
+  type: block_settings
+  label: 'Daria block'
+  mapping:
+    foo:
+      type: string
+      label: Foo
+
+block.settings.yes:
+  type: block_settings
+  label: 'daria block'
+  mapping:
+    foo:
+      type: string
+      label: Foo

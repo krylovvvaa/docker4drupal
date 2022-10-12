@@ -3,6 +3,7 @@
 namespace Drupal\custom_features\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
+use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\custom_features\ProductCosts;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -16,7 +17,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  * )
  */
 
-class ProductBlock extends BlockBase {
+class ProductBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
   protected $productCosts;
 
@@ -32,17 +33,9 @@ class ProductBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-    if(!$this->productCosts instanceof ProductCosts) {
-      $build['content'] = [
-        '#markup' => $this->t('Big problems'),
-      ];
-      return $build;
-    }
-    $s = \Drupal::service('custom_features.get_costs');
-    // $count = $this->productCosts->getCosts();
-    $count = $s->getCosts();
+    $count = $this->productCosts->getCosts();
     $build['content'] = [
-      '#markup' => 'Общая стоимость товаров: ' . $count,
+      '#markup' => $this->t('Summary cost @count', ['@count' => $count]),
     ];
     return $build;
   }

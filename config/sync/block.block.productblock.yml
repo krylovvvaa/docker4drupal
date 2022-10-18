@@ -1,4 +1,4 @@
-uuid: d555bd72-88d3-4529-a271-e42cb2f2168a
+uuid: f4460072-0303-42c8-bbda-5d0ceab6d453
 langcode: en
 status: true
 dependencies:
@@ -6,15 +6,15 @@ dependencies:
     - custom_features
   theme:
     - mytheme
-id: daria
+id: productblock
 theme: mytheme
 region: sidebar
 weight: 0
 provider: null
-plugin: custom_features_daria
+plugin: custom_features_product_block
 settings:
-  id: custom_features_daria
-  label: Daria
+  id: custom_features_product_block
+  label: ProductBlock
   label_display: visible
   provider: custom_features
 visibility: {  }

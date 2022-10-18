@@ -1,22 +1,22 @@
-uuid: a1d422fa-32ed-469f-b43a-b652369e907a
+uuid: 5fed3275-4ba0-475a-9f39-9c60812b998f
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.user.card
     - field.field.user.user.field_city
     - field.field.user.user.field_phone
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
-    - telephone
     - user
 _core:
   default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
-id: user.user.default
+id: user.user.card
 targetEntityType: user
 bundle: user
-mode: default
+mode: card
 content:
   field_city:
     type: entity_reference_label
@@ -27,16 +27,13 @@ content:
     weight: 7
     region: content
   field_phone:
-    type: telephone_link
+    type: basic_string
     label: above
-    settings:
-      title: ''
+    settings: {  }
     third_party_settings: {  }
     weight: 6
     region: content
   member_for:
-    settings: {  }
-    third_party_settings: {  }
     weight: 5
     region: content
   user_picture:

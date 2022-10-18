@@ -1,4 +1,4 @@
-uuid: d555bd72-88d3-4529-a271-e42cb2f2168a
+uuid: 70218f97-fd8d-49dc-a1e6-46384de350f9
 langcode: en
 status: true
 dependencies:
@@ -6,15 +6,15 @@ dependencies:
     - custom_features
   theme:
     - mytheme
-id: daria
+id: user
 theme: mytheme
 region: sidebar
 weight: 0
 provider: null
-plugin: custom_features_daria
+plugin: custom_features_user
 settings:
-  id: custom_features_daria
-  label: Daria
+  id: custom_features_user
+  label: User
   label_display: visible
   provider: custom_features
 visibility: {  }

@@ -1,0 +1,56 @@
+uuid: dfa87b5b-2551-425d-9c06-54c148f89f84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.employees.body
+    - field.field.node.employees.field_photo_employee
+    - field.field.node.employees.field_position
+    - field.field.node.employees.field_telephone
+    - field.field.node.employees.field_weight
+    - node.type.employees
+  module:
+    - telephone
+    - user
+id: node.employees.default
+targetEntityType: node
+bundle: employees
+mode: default
+content:
+  field_photo_employee:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_position:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_telephone:
+    type: telephone_link
+    label: hidden
+    settings:
+      title: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_weight:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  body: true
+  links: true

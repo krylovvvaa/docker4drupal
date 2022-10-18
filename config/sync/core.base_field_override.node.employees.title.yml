@@ -1,14 +1,14 @@
-uuid: 7fea19bf-10ba-4eb2-b08e-b69c0614a34e
+uuid: cf5f27d4-60ed-40f2-8360-94efb81bbfeb
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.recept
-id: node.recept.title
+    - node.type.employees
+id: node.employees.title
 field_name: title
 entity_type: node
-bundle: recept
-label: 'Название рецепта'
+bundle: employees
+label: Employees
 description: ''
 required: true
 translatable: true

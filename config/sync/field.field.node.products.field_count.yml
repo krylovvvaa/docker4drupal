@@ -1,0 +1,23 @@
+uuid: 16e36418-53ae-4955-9736-bc17be73bab8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_count
+    - node.type.products
+id: node.products.field_count
+field_name: field_count
+entity_type: node
+bundle: products
+label: Count
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

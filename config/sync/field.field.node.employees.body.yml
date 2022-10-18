@@ -1,16 +1,16 @@
-uuid: be0422cc-b3d3-44ef-b0b4-ef5ba8f52c14
+uuid: 22567b5a-9439-4bad-a43c-0a78ce4ceb6e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.recept
+    - node.type.employees
   module:
     - text
-id: node.recept.body
+id: node.employees.body
 field_name: body
 entity_type: node
-bundle: recept
+bundle: employees
 label: Body
 description: ''
 required: false

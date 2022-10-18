@@ -1,0 +1,8 @@
+uuid: d853b5c6-6268-4526-8fe5-0204a62846a8
+langcode: en
+status: true
+dependencies: {  }
+name: Cities
+vid: cities
+description: ''
+weight: 0

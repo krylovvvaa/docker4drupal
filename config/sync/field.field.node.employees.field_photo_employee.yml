@@ -1,0 +1,29 @@
+uuid: 94cd4897-06a4-4fc9-95fa-e77ce76c06e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo_employee
+    - media.type.image
+    - node.type.employees
+id: node.employees.field_photo_employee
+field_name: field_photo_employee
+entity_type: node
+bundle: employees
+label: 'Photo employee'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,16 +1,17 @@
-uuid: 4e56b90f-96fc-4de1-8046-ac133e5eee7f
+uuid: 63fcf80c-ff8d-48f7-a835-f3b2ebfcf176
 langcode: en
 status: true
 dependencies:
   module:
-    - link
     - node
-id: node.field_url_manufacturer
-field_name: field_url_manufacturer
+id: node.field_price
+field_name: field_price
 entity_type: node
-type: link
-settings: {  }
-module: link
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
 locked: false
 cardinality: 1
 translatable: true

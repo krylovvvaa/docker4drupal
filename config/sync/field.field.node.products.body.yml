@@ -1,16 +1,16 @@
-uuid: 35cd0b6e-a811-4ed5-b03f-1345763a4bfa
+uuid: 598f1df4-6071-46c6-82dc-07822fc7791d
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.proizvoditel
+    - node.type.products
   module:
     - text
-id: node.proizvoditel.body
+id: node.products.body
 field_name: body
 entity_type: node
-bundle: proizvoditel
+bundle: products
 label: Body
 description: ''
 required: false

@@ -1,0 +1,20 @@
+uuid: e86f4528-71d4-4779-ab90-065cc1c39db7
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_photo_employee
+field_name: field_photo_employee
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

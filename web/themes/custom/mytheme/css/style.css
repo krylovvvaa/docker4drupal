@@ -1,0 +1,40 @@
+/* Employee Card */
+.node__title {
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  margin-bottom: 4px;
+}
+.node-content-text {
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 150%;
+  padding-left: 40px;
+}
+.node-content-text-icon {
+  margin-right: 10px;
+}
+.node-content-text-telephone {
+  display: flex;
+}
+.node-content-text-telephone a:active, a:hover, a {
+  text-decoration: none;
+  color: #000000;
+}
+.node__content {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  width: 636px;
+  height: 196px;
+}
+.node-content-image {
+  border-radius: 100px;
+}
+.node-content-text-position {
+  padding-bottom: 16px;
+}

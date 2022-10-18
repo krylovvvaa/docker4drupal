@@ -1,15 +1,16 @@
-uuid: 685970e1-0abd-4078-8b12-ae7d2074f4ee
+uuid: a715d731-b041-4773-bbbc-57c6e5b9d8c9
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_submitted_by
-field_name: field_submitted_by
+id: node.field_weight
+field_name: field_weight
 entity_type: node
-type: entity_reference
+type: integer
 settings:
-  target_type: node
+  unsigned: false
+  size: normal
 module: core
 locked: false
 cardinality: 1

@@ -1,0 +1,38 @@
+uuid: 6cc347f5-8bc3-4316-9de1-5296e8355b4d
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.employees.body
+    - field.field.node.employees.field_photo_employee
+    - field.field.node.employees.field_position
+    - field.field.node.employees.field_telephone
+    - field.field.node.employees.field_weight
+    - node.type.employees
+  module:
+    - text
+    - user
+id: node.employees.teaser
+targetEntityType: node
+bundle: employees
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_photo_employee: true
+  field_position: true
+  field_telephone: true
+  field_weight: true

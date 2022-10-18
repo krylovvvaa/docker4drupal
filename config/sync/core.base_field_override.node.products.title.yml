@@ -1,14 +1,14 @@
-uuid: 92a7a496-b477-4436-8f90-0968eb59d999
+uuid: 956deca9-b73f-4a1b-ba9f-d990cd555c12
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.proizvoditel
-id: node.proizvoditel.title
+    - node.type.products
+id: node.products.title
 field_name: title
 entity_type: node
-bundle: proizvoditel
-label: 'Наименование производителя'
+bundle: products
+label: Products
 description: ''
 required: true
 translatable: true

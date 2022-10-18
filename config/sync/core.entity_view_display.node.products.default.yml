@@ -1,0 +1,50 @@
+uuid: a5be70e1-f813-49bc-bcff-033e01b684db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.products.body
+    - field.field.node.products.field_count
+    - field.field.node.products.field_price
+    - node.type.products
+  module:
+    - text
+    - user
+id: node.products.default
+targetEntityType: node
+bundle: products
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_count:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_price:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

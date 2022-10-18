@@ -1,21 +1,18 @@
-uuid: 54ed7607-0065-429d-a899-9421b26b3d2d
+uuid: 6acf7783-a00f-437d-9060-e84750d1f5bd
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.proizvoditel.body
-    - field.field.node.proizvoditel.field_main_image
-    - field.field.node.proizvoditel.field_url_manufacturer
-    - image.style.thumbnail
-    - node.type.proizvoditel
+    - field.field.node.products.body
+    - field.field.node.products.field_count
+    - field.field.node.products.field_price
+    - node.type.products
   module:
-    - image
-    - link
     - path
     - text
-id: node.proizvoditel.default
+id: node.products.default
 targetEntityType: node
-bundle: proizvoditel
+bundle: products
 mode: default
 content:
   body:
@@ -34,21 +31,19 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_main_image:
-    type: image_image
+  field_count:
+    type: number
     weight: 123
     region: content
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      placeholder: ''
     third_party_settings: {  }
-  field_url_manufacturer:
-    type: link_default
+  field_price:
+    type: number
     weight: 122
     region: content
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path

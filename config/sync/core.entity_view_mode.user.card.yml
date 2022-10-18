@@ -1,0 +1,10 @@
+uuid: fcdfaa0a-8cfc-4943-93cc-1c8c60525313
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.card
+label: Card
+targetEntityType: user
+cache: true

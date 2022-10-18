@@ -1,19 +1,19 @@
-uuid: 6d58e809-b00d-4652-9ec7-b08758ffc078
+uuid: 68e94fe2-fbe4-46b5-aa44-f84aed0f18f7
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.proizvoditel.body
-    - field.field.node.proizvoditel.field_main_image
-    - field.field.node.proizvoditel.field_url_manufacturer
-    - node.type.proizvoditel
+    - field.field.node.products.body
+    - field.field.node.products.field_count
+    - field.field.node.products.field_price
+    - node.type.products
   module:
     - text
     - user
-id: node.proizvoditel.teaser
+id: node.products.teaser
 targetEntityType: node
-bundle: proizvoditel
+bundle: products
 mode: teaser
 content:
   body:
@@ -30,5 +30,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_main_image: true
-  field_url_manufacturer: true
+  field_count: true
+  field_price: true

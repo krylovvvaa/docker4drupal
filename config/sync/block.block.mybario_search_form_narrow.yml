@@ -1,0 +1,23 @@
+uuid: e08b6aa4-04e3-44d3-90d1-b7aab1592862
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - mybario
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: mybario_search_form_narrow
+theme: mybario
+region: primary_menu
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

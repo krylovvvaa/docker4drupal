@@ -1,0 +1,20 @@
+uuid: b942a20b-44f9-4f6d-8f8c-e3faf4739e3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_features
+  theme:
+    - mybario
+id: mybario_user
+theme: mybario
+region: top_header
+weight: 0
+provider: null
+plugin: custom_features_user
+settings:
+  id: custom_features_user
+  label: User
+  label_display: visible
+  provider: custom_features
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: b275fccc-4cf8-4607-96a8-b1e34ad63c92
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_features
+  theme:
+    - mybario
+id: mybario_daria
+theme: mybario
+region: top_header
+weight: 0
+provider: null
+plugin: custom_features_daria
+settings:
+  id: custom_features_daria
+  label: Daria
+  label_display: visible
+  provider: custom_features
+visibility: {  }

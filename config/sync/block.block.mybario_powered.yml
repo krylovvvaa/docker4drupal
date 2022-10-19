@@ -1,0 +1,22 @@
+uuid: 822454cb-efd3-4582-a8f4-47b70f9fb0b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mybario
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: mybario_powered
+theme: mybario
+region: top_header
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

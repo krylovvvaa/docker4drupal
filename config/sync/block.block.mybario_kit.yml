@@ -1,0 +1,22 @@
+uuid: 75bb9703-392f-4968-8f2b-03b298259bcd
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_features
+  theme:
+    - mybario
+id: mybario_kit
+theme: mybario
+region: top_header
+weight: 0
+provider: null
+plugin: custom_features_kit
+settings:
+  id: custom_features_kit
+  label: Kit
+  label_display: visible
+  provider: custom_features
+  foo: 'Hello world!'
+  email: krylova.dasha03@gmail.com
+visibility: {  }

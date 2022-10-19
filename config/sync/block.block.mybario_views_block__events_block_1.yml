@@ -1,0 +1,24 @@
+uuid: 05b75acd-b134-4b50-84c1-4fad35782b3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.events
+  module:
+    - views
+  theme:
+    - mybario
+id: mybario_views_block__events_block_1
+theme: mybario
+region: top_header
+weight: -7
+provider: null
+plugin: 'views_block:events-block_1'
+settings:
+  id: 'views_block:events-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

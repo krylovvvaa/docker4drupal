@@ -1,0 +1,23 @@
+uuid: 3846eecd-fad1-44ab-a2e0-2411c451b561
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - mybario
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: mybario_search_form_wide
+theme: mybario
+region: secondary_menu
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,4 +1,4 @@
-name: SASS Bootstrap Starter Kit Subtheme
+name: My Bario
 type: theme
 description: 'SASS starter kit for a Bootstrap Barrio SubTheme.'
 # version: VERSION
@@ -34,7 +34,3 @@ regions:
   footer_fourth: 'Footer fourth'
   footer_fifth: 'Footer fifth'
 
-# Information added by Drupal.org packaging script on 2022-08-14
-version: '5.0.6'
-project: 'bootstrap_sass'
-datestamp: 1660517237
